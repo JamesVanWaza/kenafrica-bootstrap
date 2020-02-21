@@ -1,0 +1,8 @@
+{
+  "name": "kenafrica-bootstrap",
+  "version": "1.0.1",
+  "description": "Kenafrica Bootstrap4 Firebase Testing ",
+  "main": "index.html index.js ",
+  "author": "Jamesvanwaza <info@dosbranding.com>",
+  "license": "MIT"
+}
