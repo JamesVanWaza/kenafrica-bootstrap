@@ -146,7 +146,9 @@
     </div>
   </section>
 
-
+  <!-- Facebook Plugin -->	
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
   
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery.min.js"></script>
@@ -154,6 +156,27 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.js"></script>
+	
+  <!--Setup Firebase -->
+  <script defer src="node_modules/firebase/firebase-app.js"></script>
+  <script defer src="node_modules/firebase/firebase-auth.js"></script>
+  <script defer src="node_modules/firebase/firebase-database.js"></script>
+  <script defer src="node_modules/firebase/firebase-messaging.js"></script>
+  <script defer src="node_modules/firebase/firebase-storage.js"></script>
+	
+  <!-- Initialize Firebase -->
+  <script>
+	  const firebaseConfig = {
+		  apiKey: "AIzaSyCegHkMAMTApV971yvuubLQkjlkjEuSi7I",
+		  authDomain: "kenafrica-ecommerce.firebaseapp.com",
+		  databaseURL: "https://kenafrica-ecommerce.firebaseio.com",
+		  projectId: "kenafrica-ecommerce",
+		  storageBucket: "kenafrica-ecommerce.appspot.com",
+		  messagingSenderId: "255727340284",
+		  appId: "1:255727340284:web:c74ed0e3064adb9ddf6579",
+		  measurementId: "G-5FK5CC16XV"
+	  };
+  </script>
 </body>
 
 </html>
