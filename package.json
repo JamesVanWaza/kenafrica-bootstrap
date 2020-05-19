@@ -1,0 +1,8 @@
+{
+  "name": "kenafrica-bootstrap",
+  "version": "1.0.1",
+  "description": "Kenafrica Bootstrap ",
+  "main": "index.js",
+  "author": "JamesVanWaza <jgacuca@gmail.com>",
+  "license": "MIT"
+}
