@@ -6,6 +6,5 @@ firestore.indexes.json
 firestore.rules
 storage.rules
 functions/.eslintrc.json
-functions/package-lock.json
 public/yarn.lock
 .firebase/
