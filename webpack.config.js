@@ -82,16 +82,6 @@ module.exports = {
             filename: 'signin.html',
             template: './src/html-templates/signin-template.html'
         }),
-        new HtmlWebpackPlugin({
-            title: 'Signup',
-            filename: 'signup.html',
-            template: './src/html-templates/signup-template.html'
-        }),
-        new HtmlWebpackPlugin({
-            title: 'Successful',
-            filename: 'successful.html',
-            template: './src/html-templates/successful-template.html'
-        }),
         // Favicon
         new FaviconsWebpackPlugin({
             logo: './src/images/S-FaviconBackgroundColor@4x.png'
