@@ -6,7 +6,7 @@
     "author": "JamesVanWaza <info@dosbranding.com>",
     "license": "MIT",
     "dependencies": {
-        "bootstrap": "^5.3.0"
+        "bootstrap": "^5.3.1"
     },
     "devDependencies": {
         "@babel/core": "^7.22.5",
